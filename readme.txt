@@ -1,14 +1,24 @@
 Instalar node js
 	-https://nodejs.org/es/
+
 En la consola de node
 	-node archivo.js
+
 Inicar un proyecto node(crear un package.json)
 	-npm init
-Instalar framework para usar http.
+
+Instalar express framework para usar http.
 	-npm install express --save
+
 Instalar body-parser
-	-npm instal body-parser --save
-Instalar connect-multiparty
-	-npm instal connect-multiparty --save
+	-npm install body-parser --save
+	
+Instalar connect-multiparty(subir archivos en el servidor)
+	-npm install connect-multiparty --save
+	
 Instalar moongose ORM
-	-npm instal mongoose --save
+	-npm install mongoose --save
+	
+Install nodemon(cuando se cambie alguna parte en el codigo se compila automaticamente)(solo local de desarrollo)
+	-npm install nodemon --save-dev
+	-"start": "nodemon index.js" en scripts para que se compile automaticamente.
