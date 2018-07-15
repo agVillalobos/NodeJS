@@ -25,5 +25,7 @@ Install nodemon(cuando se cambie alguna parte en el codigo se compila automatica
 	
 Levantar el servidor de node.
 	-npm start
+	
 Version del node
 	-node --version
+
