@@ -28,8 +28,7 @@ Instalar moment(generar fechas)
 Install nodemon(cuando se cambie alguna parte en el codigo se compila automaticamente)(solo local de desarrollo)
 	-npm install nodemon --save-dev
 	-"start": "nodemon index.js" en scripts para que se compile automaticamente.
-	
-Levantar el servidor de node.
+	Levantar el servidor de node.
 	-npm start
 	
 Version del node
