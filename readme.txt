@@ -33,4 +33,7 @@ Install nodemon(cuando se cambie alguna parte en el codigo se compila automatica
 	
 Version del node
 	-node --version
+	
+Actualizar o bajar el paquete node_modules
+	-npm update
 
